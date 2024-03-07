@@ -1,0 +1,92 @@
+.staticNav{
+    display: block;
+}
+
+.iconNav, .lateralNav, .lateralNav1{
+    display: none;
+}
+
+ion-icon{
+    font-size: 35px;
+    border-radius: 100px;
+}
+
+ion-icon:hover{
+    background: dimgray;
+}
+
+@media(max-width: 728px){
+    .staticNav{
+        display: none;
+    }
+
+    .iconNav{
+        color: white;
+        position: fixed;
+  top: 40px;
+  left: 30px;
+    }
+    .lateralNav1{
+        display: block;
+    }
+    
+    .iconNav, .lateralNav{
+        display: flex;
+    }
+
+    .lateralNav{
+        height: 110vh;
+        position: fixed;
+        top: -20px;
+        z-index: 10;
+        left: -165px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .lateralNav > ul{
+        display: flex;
+        flex-direction: column;
+        background: grey;
+        justify-content: flex-start;
+  margin-left: -62px;
+  padding-top: 40px;
+  height: 100%;
+    }
+}
+
+
+.lateral-activo{
+    left: 32px;
+}
+
+@keyframes mover-menu {
+    from {
+      left: -165px;
+    }
+    to {
+      left: 32px;
+    }
+  }
+
+  .lateral-activo {
+    animation: mover-menu 0.5s ease-in-out forwards;
+  }
+
+
+  .lateral-desactivado{
+    left: -165px
+}
+
+@keyframes mover-menu-in {
+    from {
+      left: 32px;
+    }
+    to {
+      left: -165px;
+    }
+  }
+
+  .lateral-desactivado {
+    animation: mover-menu-in 0.5s ease-in-out forwards;
+  }
+  

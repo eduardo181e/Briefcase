@@ -1,0 +1,67 @@
+.titleContact2, .titleContact3, .titleForm, h1{
+    text-align: left;
+  }
+
+  .submitContact{
+    width: 25%;
+  }
+  
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  input{
+    height: 35px;
+  width: 50%;
+  }
+
+  textarea{
+    height: 100px;
+    width: 50%;margin-bottom: 30px;
+
+  }
+
+  @media(max-width: 850px){
+    input{
+      width: 70%;
+      }
+    
+      textarea{
+        width: 70%;
+    
+      }
+
+      .submitContact{
+        width: 260px;
+      }
+  }
+
+  @media(max-width: 550px){
+    input{
+    width: 80%;
+    }
+  
+    textarea{
+      width: 80%;
+  
+    }
+  }
+
+  @media(max-width: 590px){
+    .emailTitle{
+      font-size: 2.2em;
+      margin-bottom: -10px;
+    }
+    .email{
+      font-size: 20px;
+    }
+  }
+
+  @media(max-width: 590px){
+    .email{
+      font-size: 16px;
+    }
+  }
+
