@@ -1,10 +1,10 @@
 {
     "hello.world": "hello world",
-    "precentacion": "Hello my name is Eduardo and I am a full stack developer.",
+    "precentacion": "Hello my name is Eduardo and I am a full stack developer,",
     "about": "ABOUT",
     "quien.es": "Who Is Eduardo?",
     "about.description.1": "I am a full-stack developer passionate about technology and experienced in a wide range of JavaScript frameworks and compilers such as Angular, React, TypeScript, Node.js and jQuery. I love experimenting with new technologies and learning how they can be used to create innovative and efficient solutions.",
-    "about.description.2": "In my latest project, I developed a web application for a small event management company using Angular and Node.js. The application automated tasks such as log management, event scheduling and reporting, which allowed the company to increase their productivity by 20% and reduce log management time by 50%. I am also an expert in creating RESTful APIs, optimizing the performance of web applications and developing backends with Node.js and MySQL.",
+    "about.description.2": "In my last project, I developed a web application to assist in the work of a family member, using Angular and Node.js. The application automated tasks such as records management and report generation, which allowed him to increase his productivity by 20% and reduce the time spent on records management by 50%. I also have experience in creating RESTful APIs, optimizing web application performance and developing backends with Node.js and MySQL.",
     "about.description.3": "In the development of these applications I have focused on creating intuitive and easy to use interfaces, putting into practice my knowledge in UI/UX design. In addition to my front-end experience, I also have experience in backend development and database management. I am a hard worker, responsible and team player. I am confident that my skills and experience can be of great value to your company and I am excited for the opportunity to contribute to your success.",
     "skill.tools": "SKILLS & TOOLS",
     "skill.tools.1": "My Toolbox & Things I Can Do",
@@ -38,5 +38,13 @@
     "about.nav": "About",
     "skills.nav": "Skills",
     "project.nav": "Projects",
-    "contact.nav": "Contact"
+    "contact.nav": "Contact",
+    "ir.pagina": "Go to the page",
+    "header.1": "Positive ",
+    "header.2": "Creative ",
+    "header.3": "Disciplined ",
+    "header.4": "Collaborative ",
+    "header.5": "Proactive ",
+    "header.6": "Agile ",
+    "header.7": "Resilient "
 }

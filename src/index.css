@@ -66,3 +66,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+a{
+  word-wrap: break-word;
+}
+
+#root{
+  overflow-x: hidden;
+}
+
+@media(max-width: 500px){
+  #root{
+    margin-left: 15px;
+  }
+}

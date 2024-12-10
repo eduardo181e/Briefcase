@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import '../styles/proyect.css'
+import Button1 from './Button'
 function Proyects() {
   const [t, i18n] = useTranslation('global')
   return (
@@ -23,11 +24,13 @@ function Proyects() {
             </li>
           </ul> 
           <div>
-            <p>{t('download')}</p>
-            <a>{t('download.admin')}</a>
+          <Button1 text={t('download')} link={t('download.admin')}></Button1>
+            </div>   
+            <div>
+            <Button1 text={t('ir.pagina')} link="https://admin-53d8e.web.app/admin"></Button1>
             </div>           
           </div>
-          <img className='admin' src="../../public/admin.png" alt="" />
+          <img className='admin' src="./admin.png" alt="" />
         </div>
       </div>
       <div className="proyect">
@@ -47,11 +50,15 @@ function Proyects() {
             </li>
           </ul>  
           <div>
-            <p>{t('download')}</p>
-            <a>{t('download.caja')}</a>
-            </div>             
+
+            <Button1 text={t('download')} link={t('download.caja')}></Button1>
+            </div> 
+            <div>
+            <Button1 text={t('ir.pagina')} link="https://alien-walker-409421.web.app/signin"></Button1>
+
+            </div>                
           </div>
-          <img className='caja' src="../../public/caja.png" alt="" />
+          <img className='caja' src="./caja.png" alt="" />
         </div>
       </div>
     </div>

@@ -39,7 +39,7 @@ ion-icon:hover{
         position: fixed;
         top: -20px;
         z-index: 10;
-        left: -165px;
+        left: -170px;
         transition: all 0.5s ease-in-out;
     }
 
@@ -61,7 +61,7 @@ ion-icon:hover{
 
 @keyframes mover-menu {
     from {
-      left: -165px;
+      left: -170px;
     }
     to {
       left: 32px;
@@ -74,7 +74,7 @@ ion-icon:hover{
 
 
   .lateral-desactivado{
-    left: -165px
+    left: -170px
 }
 
 @keyframes mover-menu-in {
@@ -82,7 +82,7 @@ ion-icon:hover{
       left: 32px;
     }
     to {
-      left: -165px;
+      left: -170px;
     }
   }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/nav.css"
+import "../styles/button.css"
 function Navbar() {
   const [t, i18n] = useTranslation("global");
   function scrollBy(targetElement){
@@ -42,8 +43,8 @@ function Navbar() {
 
         }}><a href="">{t('contact.nav')}</a></li>
         <li>
-          <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-          <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+          <button className="custom-button" onClick={() => i18n.changeLanguage("es")}>ES</button>
+          <button className="custom-button" onClick={() => i18n.changeLanguage("en")}>EN</button>
         </li>
       </ul>
     </nav>
@@ -80,8 +81,14 @@ cerrarNav()
           cerrarNav()
         }}><a href="">{t('contact.nav')}</a></li>
         <li>
-          <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-          <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+          <button onClick={() => {
+            i18n.changeLanguage("es")
+            cerrarNav()
+        }}>ES</button>
+          <button onClick={() => {
+            i18n.changeLanguage("en")
+            cerrarNav()
+            }}>EN</button>
         </li>
       </ul>
     </nav>        

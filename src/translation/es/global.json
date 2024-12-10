@@ -1,10 +1,10 @@
 {
     "hello.world": "hola mundo",
-    "precentacion": "Hola mi nombre es Eduardo y soy un desarrollador full stack.",
+    "precentacion": "Hola mi nombre es Eduardo y soy un desarrollador full stack,",
     "about": "SOBRE",
     "quien.es": "Quien es Eduardo?",
     "about.description.1": "Soy un desarrollador full-stack apasionado por la tecnología y con experiencia en una amplia gama de frameworks y compiladores de JavaScript como Angular, React, TypeScript, Node.js y jQuery. Me encanta experimentar con nuevas tecnologías y aprender cómo pueden ser utilizadas para crear soluciones innovadoras y eficientes.",
-    "about.description.2": "En mi último proyecto, desarrollé una aplicación web para una pequeña empresa de gestión de eventos utilizando Angular y Node.js. La aplicación automatizó tareas como la gestión de registros, la programación de eventos y la generación de informes, lo que permitió a la empresa aumentar su productividad en un 20% y reducir el tiempo de gestión de registros en un 50%. También soy experto en la creación de APIs RESTful, la optimización del rendimiento de aplicaciones web y el desarrollo de backends con Node.js y MySQL.",
+    "about.description.2": "En mi último proyecto, desarrollé una aplicación web para ayudar en el trabajo de un familiar, utilizando Angular y Node.js. La aplicación automatizó tareas como la gestión de registros y la generación de informes, lo que le permitió aumentar su productividad en un 20% y reducir el tiempo dedicado a la gestión de registros en un 50%. También tengo experiencia en la creación de APIs RESTful, la optimización del rendimiento de aplicaciones web y el desarrollo de backends con Node.js y MySQL.",
     "about.description.3": "En el desarrollo de estas aplicaciones me he enfocado en crear interfaces intuitivas y fáciles de usar, poniendo en práctica mis conocimientos en diseño UI/UX. Además de mi experiencia en front-end, también tengo experiencia en el desarrollo de backends y en la gestión de bases de datos. Soy un trabajador dedicado, responsable y con capacidad de trabajar en equipo. Estoy seguro de que mis habilidades y experiencia pueden ser de gran valor para su empresa y estoy entusiasmado por la oportunidad de contribuir a su éxito.",
     "skill.tools": "HABILIDADES Y HERRAMIENTAS",
     "skill.tools.1": "Mi caja de herramientas y lo que sé hacer",
@@ -43,7 +43,15 @@
     "about.nav": "Sobre mi",
     "skills.nav": "Habilidades",
     "project.nav": "Proyectos",
-    "contact.nav": "Contacto"
+    "contact.nav": "Contacto",
+    "ir.pagina": "Ir a la pagina",
+    "header.1": "Positivo ",
+    "header.2": "Creativo ",
+    "header.3": "Disciplinado ",
+    "header.4": "Colaborador ",
+    "header.5": "Proactivo ",
+    "header.6": "Ágil ",
+    "header.7": "Resiliente "
 
     
 }

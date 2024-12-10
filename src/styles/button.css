@@ -1,0 +1,26 @@
+.custom-button, .submitContact {
+    background-color: black; /* Verde */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 8px;
+  }
+  
+  .custom-button:hover, .submitContact:hover {
+    background-color: white; /* Cambia el color de fondo al hacer hover */
+    transform: scale(1.05); /* Efecto de agrandamiento al hacer hover */
+    color: black;
+  }
+  
+  .custom-button:active, .submitContact:active {
+    background-color: gray; /* Color cuando el botón está presionado */
+    transform: scale(0.98); /* Efecto de reducción al hacer click */
+    color: black;
+  }
