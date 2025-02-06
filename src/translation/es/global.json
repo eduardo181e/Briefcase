@@ -3,22 +3,26 @@
     "precentacion": "Hola mi nombre es Eduardo y soy un desarrollador full stack,",
     "about": "SOBRE",
     "quien.es": "Quien es Eduardo?",
-    "about.description.1": "Soy un desarrollador full-stack apasionado por la tecnología y con experiencia en una amplia gama de frameworks y compiladores de JavaScript como Angular, React, TypeScript, Node.js y jQuery. Me encanta experimentar con nuevas tecnologías y aprender cómo pueden ser utilizadas para crear soluciones innovadoras y eficientes.",
-    "about.description.2": "En mi último proyecto, desarrollé una aplicación web para ayudar en el trabajo de un familiar, utilizando Angular y Node.js. La aplicación automatizó tareas como la gestión de registros y la generación de informes, lo que le permitió aumentar su productividad en un 20% y reducir el tiempo dedicado a la gestión de registros en un 50%. También tengo experiencia en la creación de APIs RESTful, la optimización del rendimiento de aplicaciones web y el desarrollo de backends con Node.js y MySQL.",
+    "about.description.1": "Soy un desarrollador full-stack y móvil apasionado por la tecnología, con experiencia en lenguajes como JavaScript y Kotlin, además de un sólido dominio de frameworks y herramientas de JavaScript, incluyendo Angular, React, TypeScript, Node.js y jQuery. Me motiva explorar nuevas tecnologías y descubrir cómo aplicarlas para desarrollar soluciones innovadoras, eficientes y orientadas a mejorar la experiencia del usuario y la productividad de los proyectos.",
+    "about.description.2.1": "En mi último proyecto, desarrollé una aplicación móvil diseñada para mejorar los tiempos de reacción y optimizar entrenamientos en deportes de contacto. Este proyecto combina ejercicios interactivos con una experiencia fácil de usar, ideal para practicantes que buscan mejorar su rendimiento físico de manera eficiente.",
+    "about.description.2.2": "Además, recientemente completé una aplicación web para un proyecto familiar, donde utilicé Angular y Node.js para automatizar la gestión de registros y facilitar la generación de informes. Esta solución fue diseñada para mejorar la organización y ofrecer estadísticas claras para la toma de decisiones, logrando un flujo de trabajo más eficiente.",
+    "about.description.2.3": "Mi experiencia incluye la creación de APIs RESTful, el desarrollo de backends con Node.js y MySQL, y la implementación de herramientas para el manejo de stock y registro de ventas, permitiendo cálculos estadísticos prácticos para la gestión del negocio. Mi enfoque está en la construcción de soluciones sólidas que aporten valor real a los usuarios, con un compromiso hacia la innovación y la eficiencia.",
     "about.description.3": "En el desarrollo de estas aplicaciones me he enfocado en crear interfaces intuitivas y fáciles de usar, poniendo en práctica mis conocimientos en diseño UI/UX. Además de mi experiencia en front-end, también tengo experiencia en el desarrollo de backends y en la gestión de bases de datos. Soy un trabajador dedicado, responsable y con capacidad de trabajar en equipo. Estoy seguro de que mis habilidades y experiencia pueden ser de gran valor para su empresa y estoy entusiasmado por la oportunidad de contribuir a su éxito.",
     "skill.tools": "HABILIDADES Y HERRAMIENTAS",
     "skill.tools.1": "Mi caja de herramientas y lo que sé hacer",
     "skill.tools.2": "Las habilidades, herramientas y tecnologías que utilizo para dar vida a sus productos:",
     "work.in": "Actualmente trabajando en:",
-    "work.in.1": "Mejorar mis habilidades en, y la comprensión de python, php y React Native. También, divirtiéndome en el gimnacio aprendiendo mma.",
+    "work.in.1": "Mejorar mis habilidades en, y la comprensión de python, php y inteligencia artificial. También, divirtiéndome en el gimnacio aprendiendo mma.",
 
     "project.1": "Administracion de sucursales de una empresa que vende crepas",
     "project.2": "Aplicacion de usuarios de caja para vender los productos de la sucursal que vende crepas",
+    "project.3": "Aplicacion que reproduce combos para mejorar reflejos",
 
     "projects": "Proyectos",
 
     "project.admin": "Esta aplicación permite gestionar una sucursal de ventas de crepas. Con ella puedes:",
     "project.caja": "Esta aplicación permite que los empleados agan todo lo relacionado con realizar ventas y ordenes de modo que le permite:",
+    "project.reflex": "Aplicacion que reproduce combos para mejorar reflejos, que te permite:",
 
     "project.admin.list.1": "Controlar las transacciones de una o todas las sucursales.",
     "project.admin.list.2": "Gestionar las facturas y el inventario de productos.",
@@ -27,6 +31,11 @@
     "project.caja.list.1": "Vender los productos con los que cuenta la sucursal.",
     "project.caja.list.2": "Genarar facturas de todas las ventas que se hacen para entregarcelas al cliente y alamacenarlas en la base de datos de forma automatica.",
     "project.caja.list.3": "Imprimir oredenes para poder realizar la orden que le encargan de modo que puede imprimir una orden para que el empleado sepa lo que va a hacer.",
+
+    "project.reflex.list.1": "Reproducir patrones de sonido que te pueden ayudar a mejorar tu tiempo de respuesta.",
+    "project.reflex.list.2": "Crear tus propias convinaciones.",
+    "project.reflex.list.3": "Ademas de tener una funcion enfocada en solo boxeo hay otra funcion para que tu uses tus propios estimulos auditivos personalizados.",
+    "project.reflex.list.4": "Por el momento solo disponible para android.",
     "contact": "Contacto",
     "contact.2": "¿Escribir una línea para decir buenos días, pedir mi currículum o ver si podemos construir algo increíble juntos? ¡Me encantaría saber de ti!",
     "contact.3": "Complete su información en el formulario a continuación y espero tener noticias suyas.",
@@ -36,7 +45,7 @@
     "email": "Correo Electronico",
     "mensaje": "Mensaje",
 
-    "download": "Descargar Intrucciones",
+    "download": "Ver Intrucciones",
     "download.admin": "https://drive.google.com/file/d/1vG25oPJjx_71ylmwELHzfzrrPIzQH5Q8/view?usp=drive_link",
     "download.caja": "https://drive.google.com/file/d/12tpgvnesRUCZTNLCkek9RALEW9CkoNYe/view?usp=drive_link",
 
@@ -51,7 +60,10 @@
     "header.4": "Colaborador ",
     "header.5": "Proactivo ",
     "header.6": "Ágil ",
-    "header.7": "Resiliente "
-
+    "header.7": "Resiliente ",
+    "url.reflexs": "/Briefcase/reflexs",
+    "url.admin": "/Briefcase/admin",
+    "url.caja": "/Briefcase/caja",
+    "download.1": "Descargar"
     
 }

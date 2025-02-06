@@ -1,0 +1,25 @@
+/* Estilos para el contenedor y los controles */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .video-wrapper.fade {
+    opacity: 0;
+  }
+  video {
+    object-fit: cover; 
+  }
+  .controls {
+    margin-top: 10px;
+  }
+  

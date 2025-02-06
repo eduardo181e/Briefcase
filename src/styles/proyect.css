@@ -1,6 +1,10 @@
 .admin{
   width: 50%;
 }
+
+.descripcionProyect1{
+  padding-right: 20px;
+}
 .caja{
   width: 50%;
 }
@@ -76,14 +80,10 @@ ul, p {
 @media(max-width: 570px){
   .proyectAll{
     width: 90%;
-    margin-left: -1%;
   }
 }
 
 @media(max-width: 510px){
-  .proyectAll{
-    margin-left: -4%;
-  }
 
   .caja {
     height: 300px;
@@ -95,9 +95,7 @@ ul, p {
 }
 
 @media(max-width: 450px){
-  .proyectAll{
-    margin-left: -5%;
-  }
+
 
   .caja {
     height: 200px;

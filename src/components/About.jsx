@@ -10,7 +10,9 @@ function About() {
         <h1 className='a-right'>{t("about")}</h1>
         <h2 className='a-right'>{t("quien.es")}</h2>
         <p className='a-right'>{t("about.description.1")}</p>
-        <p className='a-right'>{t("about.description.2")}</p>
+        <p className='a-right'>{t("about.description.2.1")}</p>
+        <p className='a-right'>{t("about.description.2.2")}</p>
+        <p className='a-right'>{t("about.description.2.3")}</p>
         <p className='a-right'>{t("about.description.3")}</p>
         </div>
 

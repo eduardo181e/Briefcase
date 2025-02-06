@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/button.css'; // Estilos CSS para el botón
-
-function Button1({ text, link }) {
+import { useNavigate } from 'react-router-dom';
+function Button1({ text, link, out }) {
+  const navigate = useNavigate()
   const handleClick = () => {
-    window.location.href = link; // Redirecciona al enlace pasado como prop
+    navigate(link)
   };
 
   return (

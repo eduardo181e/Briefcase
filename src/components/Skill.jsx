@@ -85,6 +85,10 @@ function Skill() {
               { img: "./skills/sass.png", name: "SASS" },
               { img: "./skills/bootsrap.png", name: "BOOTSTRAP" },
               { img: "./skills/jquery.png", name: "JQuery" },
+              { img: "./skills/mobile.png", name: "Mobile development" },
+              { img: "./skills/android.png", name: "Android" },
+              { img: "./skills/Kotlin.png", name: "Kotlin" },
+              { img: "./skills/react.webp", name: "React Native" },
             ].map((skill, index) => (
               <motion.li key={index} variants={itemVariants}>
                 <img src={skill.img} alt={skill.name} />

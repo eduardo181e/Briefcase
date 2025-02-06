@@ -1,0 +1,48 @@
+.staticNav1{
+    width: 30%;
+    list-style: none;
+}
+
+.video1{
+    width: 70%;
+    padding: 10px;
+}
+
+@media(max-width: 1257px){
+    .staticNav1{
+      width: 40%;
+      padding-left: 20px;
+    }
+    .video1{
+        width: 60%;
+    }
+}
+
+@media(max-width: 1037px){
+    .staticNav1{
+      width: 40%;
+      padding-left: 0px;
+    }
+    .video1{
+        width: 60%;
+    }
+}
+
+@media(max-width: 915px){
+    .staticNav1{
+      width: 30%;
+      padding-left: 0px;
+    }
+    .video1{
+        width: 70%;
+    }
+    button, p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 728px){
+    .video1{
+        width: 100%;
+    }
+}
