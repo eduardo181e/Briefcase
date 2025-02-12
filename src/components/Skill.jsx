@@ -52,7 +52,7 @@ function Skill() {
 
   return (
     <div ref={skillRef} className="titleSkils" id="skills">
-      <h1 className="a-right" style={{ width: '90%' }}>{t("skill.tools")}</h1>
+      <h1 className="a-right" style={{ width: '90%', wordBreak: 'break-word' }}>{t("skill.tools")}</h1>
       <h2 className="a-right" style={{ marginBottom: '-10px', width: '90%' }}>{t("skill.tools.1")}</h2>
       <h3 className="a-right" style={{ marginBottom: '10px', width: '80%' }}>{t("skill.tools.2")}</h3>
 

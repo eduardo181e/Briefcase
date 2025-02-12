@@ -125,6 +125,8 @@ nav ul li a:hover{
     height: 120px;
     margin-bottom: 60px;
   }
+
+
 }
 
 @media (max-width: 500px) {
@@ -142,6 +144,10 @@ nav ul li a:hover{
   .tool, .tool > ul {
     margin-left: calc((100% - 460px) /2);
     width: 420px;
+  }
+
+  .spanish-class{
+    word-wrap: break-word;
   }
 
 

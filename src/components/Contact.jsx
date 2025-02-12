@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import emailjs from '@emailjs/browser';
 import '../styles/contact.css'
-import Button1 from './Button';
+import Button from './Button1';
 import '../styles/button.css'
 function Contact() {
   const form = useRef();
@@ -26,7 +26,7 @@ function Contact() {
   };
     const [t, i18n] = useTranslation('global')
   return (
-    <div style={{width: "80%"}} id='contact'>
+    <div style={{width: "100%"}} id='contact'>
         <h1 className='titleContact'>{t('contact')}</h1>
         <h2 className='titleContact2'>{t('contact.1')}</h2>
         <h3 className='titleContact3'>{t('contact.2')}</h3>
@@ -46,7 +46,7 @@ function Contact() {
 
         <h1 className='titleContact emailTitle'>GitHub</h1>
         <h2 className='email' style={{textAlign: 'left'}}>
-        <Button1 text='GitHub' link="https://github.com/eduardo181e"></Button1></h2>
+        <Button text='GitHub' link="https://github.com/eduardo181e"></Button></h2>
     </div>
   )
 }

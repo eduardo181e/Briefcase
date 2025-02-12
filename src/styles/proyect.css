@@ -33,6 +33,10 @@ ul, p {
     margin-bottom: 120px;
 }
 
+
+
+
+
 @media(max-width:1110px){
   .caja{
     width: 50%;
@@ -77,9 +81,17 @@ ul, p {
   }
 }
 
+
+
 @media(max-width: 570px){
   .proyectAll{
     width: 90%;
+  }
+}
+
+@media(max-width: 565px){
+  .proyectAll{
+    margin-left: 3.7%;
   }
 }
 

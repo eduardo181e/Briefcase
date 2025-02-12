@@ -85,7 +85,7 @@ function Header() {
   const [t, i18n] = useTranslation('global')
   return (
     <div>
-      <h1 className='presentacion'>{t("precentacion")}<TypingAnimation words={[t("header.1"), t("header.2"), t("header.3"), t("header.4"), t("header.5"), t("header.6"), t("header.7")]} /></h1>
+      <h1 className={`presentacion ${i18n.language === "es" ? "spanish-class" : ""}`}>{t("precentacion")}<TypingAnimation words={[t("header.1"), t("header.2"), t("header.3"), t("header.4"), t("header.5"), t("header.6"), t("header.7")]} /></h1>
       
     </div>
   );
